@@ -1,12 +1,12 @@
-import React from 'react'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import javascript from '../assets/javascript.png'
-import reactImg from '../assets/react.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
-import github from '../assets/github.png'
-import tailwind from '../assets/tailwind.png'
+import React from 'react';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import javascript from '../assets/javascript.png';
+import reactImg from '../assets/react.png';
+import bootstrap from '../assets/bootstrap.jpeg';
+import git from '../assets/git.png';
+import github from '../assets/github.png';
+import tailwind from '../assets/tailwind.png';
 
 const Experience = () => {
 
@@ -43,15 +43,15 @@ const Experience = () => {
         },
         {
             id: 6,
-            src: nextjs,
-            title: 'NextJs',
-            style: 'shadow-orange-500'
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-500'
         },
         {
             id: 7,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-pink-400'
+            src: git,
+            title: 'Git',
+            style: 'shadow-orange-600'
         },
         {
             id: 8,
@@ -65,6 +65,7 @@ const Experience = () => {
     <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full md:h-screen sm:h-screen'>
       
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white py-24 sm:pt-20 md:pt-72'>
+
             <div className='pb-8 '>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
                 <p className='py-6'>These are the Technologies I've worked with</p>
@@ -81,6 +82,7 @@ const Experience = () => {
                     ))
                 }  
             </div>
+
         </div>
 
     </div>

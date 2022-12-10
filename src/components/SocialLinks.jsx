@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/shubham-tiwari-954095207',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://github.com/shubh2268'
+            href: 'https://github.com/Shubh2268?tab=repositories'
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:foo@gmail.com'
+            href: 'https://mail.google.com/mail/u/0/#inbox'
         },
         {
             id: 4,
