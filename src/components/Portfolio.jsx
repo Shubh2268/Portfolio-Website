@@ -11,25 +11,25 @@ const Portfolio = () => {
             id: 1,
             src: imdb,
             live: 'https://imdb-clone-001.netlify.app',
-            code: 'https://github1s.com/Shubh2268/IMDB-Clone/blob/HEAD/README.md'
+            code: 'https://github1s.com/Shubh2268/IMDB-Clone/blob/HEAD/src/App.js'
         },
         {
             id: 2,
             src: anton,
             live: 'https://anton-002.netlify.app',
-            code: 'https://github1s.com/Shubh2268/ANTON-Future'
+            code: 'https://github1s.com/Shubh2268/ANTON-Future/blob/main/src/App.js'
         },
         {
             id: 3,
             src: webServices,
             live: 'https://web-services-003.netlify.app',
-            code: 'https://github1s.com/Shubh2268/Cloud-web-services'
+            code: 'https://github1s.com/Shubh2268/Cloud-web-services/blob/main/src/App.js'
         },
         {
             id: 4,
             src: weather,
             live: 'https://weather-004.netlify.app',
-            code: 'https://github1s.com/Shubh2268/Weather-App'
+            code: 'https://github1s.com/Shubh2268/Weather-App/blob/main/src/App.js'
         },
     ]
 
