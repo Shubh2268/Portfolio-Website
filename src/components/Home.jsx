@@ -19,8 +19,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='pt-10 sm:pt-0'>
-                <img src={HeroImage} alt="my profile" className='rounded-full md:rounded-2xl mx-auto w-2/3 md:w-4/5 md:mb-8' />
+            <div className='pt-8 sm:pt-0'>
+                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-4/5 md:mb-12' />
             </div>
 
         </div>
