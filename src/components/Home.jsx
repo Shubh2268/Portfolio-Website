@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
 
                 <div className='pt-8 sm:pt-0'>
-                    <img src={myImage} alt='my profile' className='rounded-full shadow-lg shadow-cyan-400 mx-auto w-2/3 md:w-full md:mb-12' />
+                    <img src={myImage} alt='my profile' className='rounded-full border-2 border-gray-400 mx-auto w-2/3 md:w-full md:mb-12' />
                 </div>
 
             </div>
