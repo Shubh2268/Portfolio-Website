@@ -1,4 +1,5 @@
 import React from 'react';
+import fitness from '../assets/portfolio/fitness.png';
 import onnn from '../assets/portfolio/onnn.png';
 import anton from '../assets/portfolio/anton.png';
 import weather from '../assets/portfolio/weather.png';
@@ -8,18 +9,24 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
+            src: fitness,
+            live: 'https://fitness-monster.netlify.app',
+            code: 'https://github.dev/Shubh2268/Gym-Exercises'
+        },
+        {
+            id: 2,
             src: onnn,
             live: 'https://onnn-003.netlify.app',
             code: 'https://github1s.com/Shubh2268/IMDB-Clone/blob/HEAD/src/App.js'
         },
         {
-            id: 2,
+            id: 3,
             src: anton,
             live: 'https://anton-002.netlify.app',
             code: 'https://github1s.com/Shubh2268/ANTON-Future/blob/main/src/App.js'
         },
         {
-            id: 3,
+            id: 4,
             src: weather,
             live: 'https://weather-app-2-0.netlify.app',
             code: 'https://github1s.com/Shubh2268/Cloud-web-services/blob/main/src/App.js'
