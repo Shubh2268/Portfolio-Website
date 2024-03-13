@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { LiaTimesSolid } from 'react-icons/lia';
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -42,9 +43,9 @@ const Navbar = () => {
                     {
                         links.map(({ id, link }) => (
                             <li key={id} className='text-lg px-4 cursor-pointer capitalize font-semibold text-gray-200 hover:shadow-md shadow-white hover:scale-105 ease-in duration-200'>
-                                <a>
+                                <Link to={link} smooth duration={500} >
                                     {link}
-                                </a>
+                                </Link>
                             </li>
                         ))
                     }
@@ -76,9 +77,9 @@ const Navbar = () => {
                             {
                                 links.map(({ id, link }) => (
                                     <li key={id} className='py-2 text-lg text-center font-medium cursor-pointer'>
-                                        <a onClick={() => setNavigation(false)} offset={-75}>
+                                        <Link onClick={() => setNavigation(false)} offset={-75} to={link} smooth duration={500}>
                                             {link}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))
                             }
