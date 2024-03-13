@@ -39,19 +39,19 @@ const Portfolio = () => {
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
-                <div className='pb-8 pt-40'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+                <div className='pb-8 pt-40 text-center sm:text-start'>
+                    <p className='text-2xl sm:text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
 
-                <div className='grid sm:grid-cols-2 gap-x-20 gap-y-12 m-auto p-auto sm:px-0 w-3/4'>
+                <div className='grid sm:grid-cols-2 gap-x-20 gap-y-12 m-auto p-auto px-5 sm:px-0 w-full'>
                     {
                         portfolios.map(({ id, src, live, code }) => (
                             <div key={id} className='shadow-lg shadow-gray-600 rounded-lg hover:scale-105 ease-in duration-500'>
                                 <img src={src} alt="" className='rounded-md' />
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={live} target='_blank' rel="noreferrer">View Live</a></button>
-                                    <button className='w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={code} target='_blank' rel="noreferrer">Code</a></button>
+                                    <button className='text-sm sm:text-base w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={live} target='_blank' rel="noreferrer">View Live</a></button>
+                                    <button className='text-sm sm:text-base w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={code} target='_blank' rel="noreferrer">Code</a></button>
                                 </div>
                             </div>
                         ))
