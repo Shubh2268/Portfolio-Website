@@ -1,6 +1,7 @@
 import React from 'react';
 import myImage from '../assets/myImage.png';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -12,9 +13,9 @@ const Home = () => {
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
                     <p className='text-gray-300 py-4 max-w-md'>I'm 23 years old. I have a great passion for building and designing software. Currently, I love to work on web application using technology like ReactJs, Tailwind, and Bootstrap.</p>
                     <div>
-                        <a className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <Link to='portfolio' smooth duration={500} className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Portfolio <span className='group-hover:rotate-90 duration-300'> <HiArrowNarrowRight size={20} className='ml-1' /> </span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
