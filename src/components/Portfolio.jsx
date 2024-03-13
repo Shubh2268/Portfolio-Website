@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 gap-x-20 gap-y-12 m-auto p-auto px-5 sm:px-0 w-full'>
                     {
                         portfolios.map(({ id, src, live, code }) => (
-                            <div key={id} className='shadow-lg shadow-gray-600 rounded-lg hover:scale-105 ease-in duration-500'>
+                            <div key={id} className='shadow-lg shadow-gray-600 rounded-lg hover:scale-105 ease-in duration-700'>
                                 <img src={src} alt="" className='rounded-md' />
                                 <div className='flex items-center justify-center'>
                                     <button className='text-sm sm:text-base w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={live} target='_blank' rel="noreferrer">View Live</a></button>
