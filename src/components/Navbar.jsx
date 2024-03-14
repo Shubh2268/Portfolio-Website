@@ -76,7 +76,7 @@ const Navbar = () => {
                         <ul className='capitalize'>
                             {
                                 links.map(({ id, link }) => (
-                                    <li key={id} className='py-2 text-lg text-center font-medium cursor-pointer'>
+                                    <li key={id} className='py-2 text-lg text-start font-medium cursor-pointer'>
                                         <Link onClick={() => setNavigation(false)} offset={-75} to={link} smooth duration={500}>
                                             {link}
                                         </Link>
