@@ -16,13 +16,13 @@ const Portfolio = () => {
         {
             id: 2,
             src: onnn,
-            live: 'https://onnn-003.netlify.app',
+            live: 'https://onnn.netlify.app',
             code: 'https://github1s.com/Shubh2268/IMDB-Clone/blob/HEAD/src/App.js'
         },
         {
             id: 3,
             src: anton,
-            live: 'https://anton-002.netlify.app',
+            live: 'https://anton-pro.netlify.app',
             code: 'https://github1s.com/Shubh2268/ANTON-Future/blob/main/src/App.js'
         },
         {
