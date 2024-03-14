@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <div className='w-full z-20 fixed bg-black text-white'>
 
-            <div className='px-5 sm:px-10 py-2 sm:py-5 flex items-center justify-between w-full h-full'>
+            <div className='px-5 sm:px-10 py-2 sm:py-4 flex items-center justify-between w-full h-full'>
 
                 <div className='flex items-center'>
                     <h1 className='text-2xl sm:text-3xl font-signature py-2 sm:py-0'>Shubh</h1>
