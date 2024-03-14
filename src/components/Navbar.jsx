@@ -33,13 +33,13 @@ const Navbar = () => {
     return (
         <div className='w-full z-20 fixed bg-black text-white'>
 
-            <div className='px-5 sm:px-10 py-3 sm:py-5 flex items-center justify-between w-full h-full'>
+            <div className='px-5 sm:px-10 py-2 sm:py-5 flex items-center justify-between w-full h-full'>
 
                 <div className='flex items-center'>
                     <h1 className='text-2xl sm:text-3xl font-signature py-2 sm:py-0'>Shubh</h1>
                 </div>
 
-                <ul className='hidden md:flex'>
+                <ul className='hidden lg:flex'>
                     {
                         links.map(({ id, link }) => (
                             <li key={id} className='text-lg px-4 cursor-pointer capitalize font-semibold text-gray-200 hover:text-gray-300'>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* burger icon */}
-                <div className='sm:hidden'>
+                <div className='lg:hidden'>
                     <div className='cursor-pointer'>
                         <HiOutlineMenuAlt2 onClick={() => setNavigation(true)} size={25} />
                     </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
 
             {/* mobile view */}
-            <div className={navigation ? 'md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur' : ''}>
+            <div className={navigation ? 'lg:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur' : ''}>
                 <div className={navigation ? 'fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500' : 'fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
