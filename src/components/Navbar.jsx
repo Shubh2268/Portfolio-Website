@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='px-7 sm:px-10 py-2 sm:py-4 flex items-center justify-between w-full h-full'>
 
                 <div className='flex items-center'>
-                    <h1 className='text-2xl sm:text-3xl font-signature py-2 sm:py-0'>Shubh</h1>
+                    <Link to='home' smooth duration={500} className='text-2xl sm:text-3xl font-signature py-2 sm:py-0 cursor-pointer'>Shubh</Link>
                 </div>
 
                 <ul className='hidden lg:flex'>
