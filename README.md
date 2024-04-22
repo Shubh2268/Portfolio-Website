@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://shubham-01.netlify.app" target="_blank">
-      <img src="https://imagetolink.com/ib/XB1uTz8qKn.png" alt="Portfolio Banner">
+      <img src="https://imagetolink.com/ib/6LCat3zp4M.png" alt="Portfolio Banner">
     </a>
   <br />
 
