@@ -1,5 +1,5 @@
 import React from 'react';
-import fitness from '../assets/portfolio/fitness.png';
+import moviemap from '../assets/portfolio/moviemap.png';
 import onnn from '../assets/portfolio/onnn.png';
 import anton from '../assets/portfolio/anton.png';
 import weather from '../assets/portfolio/weather.png';
@@ -9,27 +9,27 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: fitness,
-            live: 'https://fitness-monster.netlify.app',
-            code: 'https://github.dev/Shubh2268/Gym-Exercises'
+            src: moviemap,
+            live: 'https://moviemap-pro.netlify.app',
+            code: 'https://github.com/Shubh2268/Movie-Map.git'
         },
         {
             id: 2,
             src: onnn,
             live: 'https://onnn.netlify.app',
-            code: 'https://github1s.com/Shubh2268/IMDB-Clone/blob/HEAD/src/App.js'
+            code: 'https://github.com/Shubh2268/ONNN.git'
         },
         {
             id: 3,
             src: anton,
             live: 'https://anton-pro.netlify.app',
-            code: 'https://github1s.com/Shubh2268/ANTON-Future/blob/main/src/App.js'
+            code: 'https://github.com/Shubh2268/ANTON.git'
         },
         {
             id: 4,
             src: weather,
             live: 'https://weather-app-2-0.netlify.app',
-            code: 'https://github1s.com/Shubh2268/Cloud-web-services/blob/main/src/App.js'
+            code: 'https://github.com/Shubh2268/Weather-App.git'
         }
     ];
 
@@ -51,6 +51,7 @@ const Portfolio = () => {
                                 <img src={src} alt="" className='rounded-md' />
                                 <div className='flex items-center justify-center'>
                                     <button className='text-sm sm:text-base w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={live} target='_blank' rel="noreferrer">View Live</a></button>
+                                    
                                     <button className='text-sm sm:text-base w-1/2 px-6 py-1 m-3 hover:underline font-semibold'><a href={code} target='_blank' rel="noreferrer">Code</a></button>
                                 </div>
                             </div>
