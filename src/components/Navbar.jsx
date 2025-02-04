@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='px-7 sm:px-10 py-2 sm:py-4 flex items-center justify-between w-full h-full'>
 
                 <div className='flex items-center'>
-                    <Link to='home' smooth duration={500} className='text-2xl sm:text-3xl font-signature py-2 sm:py-0 cursor-pointer'>Shubh</Link>
+                    <Link to='home' smooth duration={500} className='text-2xl sm:text-3xl font-signature py-2 sm:py-0 cursor-pointer'>Shubham Tiwari</Link>
                 </div>
 
                 <ul className='hidden lg:flex'>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <div className={navigation ? 'fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500' : 'fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <h2 className='text-2xl font-signature capitalize cursor-pointer'>Shubh</h2>
+                            <h2 className='text-2xl font-signature capitalize cursor-pointer'>Shubham Tiwari</h2>
                             <div className='p-3 cursor-pointer'>
                                 <LiaTimesSolid onClick={() => setNavigation(false)} size={25} />
                             </div>
