@@ -1,8 +1,9 @@
-import React from 'react';
 import moviemap from '../assets/portfolio/moviemap.png';
 import onnn from '../assets/portfolio/onnn.png';
 import anton from '../assets/portfolio/anton.png';
 import weather from '../assets/portfolio/weather.png';
+import digitra from '../assets/portfolio/digitra.png';
+import pixora from '../assets/portfolio/pixora.png';
 
 const Portfolio = () => {
 
@@ -30,7 +31,19 @@ const Portfolio = () => {
             src: weather,
             live: 'https://weather-app-2-0.netlify.app',
             code: 'https://github.com/Shubh2268/Weather-App.git'
-        }
+        },
+        {
+            id: 5,
+            src: digitra,
+            live: 'https://digitra.netlify.app',
+            code: 'https://github.com/Shubh2268/Digital-Web-Agency.git'
+        },
+        {
+            id: 6,
+            src: pixora,
+            live: 'https://pixora-world.netlify.app',
+            code: 'https://github.com/Shubh2268/Pixabay-Clone.git'
+        },
     ];
 
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { LiaTimesSolid } from 'react-icons/lia';
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { Link } from 'react-scroll';
